@@ -1,0 +1,125 @@
+body {
+    width: 900px;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: powderblue 
+    background-image: url("whitebrick.png"); 
+}
+
+header {
+    margin-top: 24px;
+}
+
+footer {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 160%;
+    color: #f7f7f7;
+}
+
+p2 {
+    font-family: 'Courier New', serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 160%;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    text-align: right;
+    font-family: 'Verdana', cursive;
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Verdana', cursive;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Verdana', cursive;
+    color: white;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+	background-color: blue;
+}
+
+a {
+	font-size:32px;
+	font-family: 'Verdana';
+	color: white;
+	text-align: left;
+} 
+
+/* unvisited link */
+a:link {
+    color: #CD5C5C;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #8B008B;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+ol {
+list-style-type: none;
+color: white;
+}
+
+div {
+  background-image: -webkit-linear-gradient(top, #CD5C5C 0%, #FFB6C1 100%);
+  background-image: -moz-linear-gradient(top, #CD5C5C 0%, #FFB6C1 100%);
+  background-image: -ms-linear-gradient(top, #CD5C5C 0%, #FFB6C1 100%);
+  background-image: -o-linear-gradient(top, #CD5C5C 0%, #FFB6C1 100%);
+  background-image: linear-gradient(top, #CD5C5C 0%, #FFB6C1 100%);
+}
